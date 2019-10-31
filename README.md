@@ -9,6 +9,6 @@ I was able to go around this issue with the following strategy:
 2. **Scan to network-drive** from printer
 3. Linux Server check for new file in Network-drive and send to email using the FREE smtp gmail server.
 
-Look into the (HP-Printer-Hack)[https://github.com/mpalitto/HomeHacks/tree/HP-Printer-Hack/HP-Printer_Hack] folder for the Sever bash code
+Look into the [HP-Printer-Hack](https://github.com/mpalitto/HomeHacks/tree/HP-Printer-Hack/HP-Printer_Hack) folder for the Sever bash code
 
-Look into the (WiKi)[https://github.com/mpalitto/HomeHacks/wiki/HP-Printer-Hack] for datailed instructions
+Look into the [WiKi](https://github.com/mpalitto/HomeHacks/wiki/HP-Printer-Hack) for datailed instructions
