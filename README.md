@@ -25,5 +25,5 @@ See [WiKi sONOFF Local Server](https://github.com/mpalitto/HomeHacks/wiki/sONOFF
 
 ### files
 
-[sONOFFserver/socket.js](https://github.com/mpalitto/HomeHacks/blob/sONOFFserver/sONOFFserver/socket.js) is the nodeJS program implementig the sONOFFserver
-[sONOFFserver/iptables.rules.sh](https://github.com/mpalitto/HomeHacks/blob/sONOFFserver/sONOFFserver/iptables.rules.sh) the shell script for setting the IPTABLEs rules for redirecting the sONOFF sent packet to local port and address
+* [sONOFFserver/socket.js](https://github.com/mpalitto/HomeHacks/blob/sONOFFserver/sONOFFserver/socket.js) is the nodeJS program implementig the sONOFFserver
+* [sONOFFserver/iptables.rules.sh](https://github.com/mpalitto/HomeHacks/blob/sONOFFserver/sONOFFserver/iptables.rules.sh) the shell script for setting the IPTABLEs rules for redirecting the sONOFF sent packet to local port and address
