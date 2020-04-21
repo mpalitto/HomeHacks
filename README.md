@@ -1,6 +1,9 @@
 # HomeHacks
 Collection of little projects used at my home...
 =======
+## Current Alarm
+Measure total draw current consuption for my condo, current than gets dispalyed by a current monitor display, and if the current value gets higher than a threshold a dico light turns on to alarm the ppl around
+=======
 ## HP Printer Hack
 HP Printer (HP Color LaserJet MFP M281fdw) did not work when using the **Scan to email** feature, no matter the settings.
 
@@ -22,4 +25,4 @@ Uno script su server 'subscribes' al canale e scrive i valori su foglio google-s
 
 Interessante ma poco utile...
 
-E' stato sostituito dalla versione in uso di **CurrentDrawMonitor**
+E' stato sostituito dalla versione in uso di **CurrentAlarm*
