@@ -7,7 +7,8 @@ Collection of little projects used at my home...
 Measure total draw current consuption for my condo, current than gets dispalyed by a current monitor display, and if the current value gets higher than a threshold a dico light turns on to alarm the ppl around
 
 * current sensor (managed by ESP12 NODE MCU) connects throug WIFI to home server
-* home server reads current value and send value to LED Matrix Display  (managed by ESP12 NODE MCU)
+* Home Server (Linux OrangePi) hosting server side scripts
+* home server reads current values and send them to LED Matrix Display  (managed by ESP12 NODE MCU)
 * home server checks for threshold and eventually turns Rotating Disco Light as an alarm (using sONOFF)
 
 ### FILEs: (see CurrentAlarm folder)
@@ -18,8 +19,15 @@ Measure total draw current consuption for my condo, current than gets dispalyed 
 
 #### Current Sensor
 work in progress (need to add ino file)
+
+A current sensor (with a little analog circuit: 2 resistors and a diode) connected to the analog input of a ESP12 NODE MCU.
+
+The NODE MCU connects to home server and sends current readings.
+
 #### LED Matrix Display
 work in progress (need to add ino file)
+
+implements a socket server (connected to LAN using WIFI on a NODE MCU) to which anyone can connect to and send text to be displayed.
 
 =======
 ## HP Printer Hack
