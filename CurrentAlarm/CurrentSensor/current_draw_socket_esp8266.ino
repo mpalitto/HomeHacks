@@ -11,8 +11,8 @@ and it sends to local server by socket
 #define LED_BUILTIN 2
 
 // Update these with values suitable for your network.
-const char* ssid = "XXXXXXXXX";
-const char* password = "YYYYY";
+const char* ssid = "PALITTO-BONCRISTIANO";
+const char* password = "scalaEapt11";
 const char* host = "192.168.1.77";  // Server IP
 const int   port = 12345;           // Server Port
 WiFiClient espClient;

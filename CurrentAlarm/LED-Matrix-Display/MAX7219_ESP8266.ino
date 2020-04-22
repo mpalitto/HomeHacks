@@ -49,8 +49,8 @@ MD_MAX72XX mx = MD_MAX72XX(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
 //MD_MAX72XX mx = MD_MAX72XX(DATA_PIN, CLK_PIN, CS_PIN, MAX_DEVICES);
 
 // WiFi login parameters - network name and password
-const char* ssid = "XXXXXXXXXXXXXXXXXXXX";       // edit your wifi SSID here
-const char* password = "YYYYYYYYYYY";            // edit your wifi password here
+const char* ssid = "PALITTO-BONCRISTIANO";       // edit your wifi SSID here
+const char* password = "scalaEapt11";            // edit your wifi password here
 
 // WiFi Server object and parameters
 WiFiServer server(80);
