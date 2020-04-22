@@ -3,8 +3,47 @@ Collection of little projects used at my home...
 
 =======
 
+## Kinect
+It has always affascinated me the ability of sensing distance in an image and detection of direction for sound sources.
+
+Kinect is an affordable device that just do that.
+1. has a depth sensor for measuring distance of light for each pixel
+2. has mic array wich can be used to calculate the Direction of Arrival for the sound
+
+These could be used, for example, for a robot whom is able to recognise the room in which it is located and, if anybody talks to it, where to turn to and how to select the sound coming from the human mouth for better listening....
+
+In this section I am going to record my experiments with Kinect.
+
+It looks like the easyest way to access programmatically from Linux PC to the Kinect is using PYLIBFREENECT2 python library.
+
+I am not very happy bc I don't like Python...
+
+This lib comes with 2 examples (in the example folder).
+
+I have modified selective_streams.py and added a graphical control for playing with some parameters.
+
+By playing manually with the parameters I can make the background to disappear (black color) and the RGB image be centered into the depth mask.
+
+Three parameters: LL (Close Layer), UL (Far Layer), CAL (camera calibration)
+
+Everything closer than the LL is blocked (masked), everything farther than UL is bolcked. In this way I can select what to show in the image. For example I can block the background.
+
+The CAL allows to shift left the RGB image so that can be centered to the mask.
+
+for running the program:
+make sure the evironment varible ``export LD_LIBRARY_PATH="/home/matteo/dev/HomeHacks/Kinect/freenect2/lib"`` is set to where the ``freenect2`` libs are found.
+```
+python3 examples/selective_streams.py
+```
+to stop just press TWICE **Ctrl-C**
+
+
+
+python3 
+=======
+
 ## Current Alarm
-Measure total draw current consuption for my condo, current than gets dispalyed by a current monitor display, and if the current value gets higher than a threshold a dico light turns on to alarm the ppl around
+Measuring total draw current consuption for my condo, dispaly measurement on a current monitor display, and if the current value gets higher than a threshold, a disco light turns on to alarm the ppl around.
 
 * current sensor (managed by ESP12 NODE MCU) connects throug WIFI to home server
 * Home Server (Linux OrangePi) hosting server side scripts
