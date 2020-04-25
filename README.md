@@ -3,6 +3,26 @@ Collection of little projects used at my home...
 
 =======
 
+## IP Cam Home Security Alarm
+
+I have a cheap IPcam that has the motion detection which is not usable bc it gives too many false alarms.
+
+I have made use of **tensorflow.js** for making a functional person detector.
+
+When a person is detected frames are saved and an email is sent to ALERT me of the detection with attached the pics of the villan.
+
+Future developments:
+
+In the future I might add facial recognition if I wanted to use it as a Welcome IP cam...
+
+Also I might want to add some PIR sensor for detecting in other rooms possible unexpected bodies...
+
+Since the IPcam has PAN&TILT, I might add (for fun) the follow a person as it moves... (spookie).
+
+Check the WIKI page for more details.
+
+=======
+
 ## Kinect
 It has always affascinated me the ability of sensing distance in an image and detection of direction for sound sources.
 
